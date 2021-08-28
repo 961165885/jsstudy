@@ -369,8 +369,7 @@ function setItemPos(item) {
         pos[0] += random;
     });
 }
-function setItemDirection(itemGroup) {
-}
+
 function generateItem() {
     const groupIndex = parseInt(Math.random() * itemPool.length);
 
